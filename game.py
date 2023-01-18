@@ -1,15 +1,13 @@
 from colorama import Fore, Back, Style
 import random
 running = True
-
+score = 0
 while running:
     n = 1
     rock = "Rock"
     paper = "Paper"
     scissors = "Scissors"
-
     player_move = input("Choose your move: [r]ock, [p]aper or [s]cissors: ")
-
     if player_move == "r":
         player_move = rock
     elif player_move == "p":
@@ -33,10 +31,13 @@ while running:
 
     if(player_move == rock and computer_move == scissors) or (player_move == paper and computer_move == rock) or (player_move == scissors and computer_move == paper):
             print(Fore.GREEN + "You won!")
+            score += 10
     elif player_move == computer_move:
         print(Fore.LIGHTMAGENTA_EX + "You think like a robot? You're draw!")
+        score += 5
     else: 
         print(Fore.RED + "You lose!")
+    print(f"You now have {score} points")
     play_again = input("Wanna play again? ")
     if play_again == "no" or play_again == "n":
         running = False
