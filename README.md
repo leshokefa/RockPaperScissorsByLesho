@@ -18,9 +18,7 @@ The player should enter one of these options:
 
 
 And the computer gives a random output of these three, compares them and chooses who is the winner based of the normal rules of the game!
-
-## Live Demo
 <a href = "https://studioinstitute.org/wp-content/uploads/2020/07/play-button-overlay-png.png">
-<img alt= "Play button" src = "https://studioinstitute.org/wp-content/uploads/2020/07/play-button-overlay-png.png"/>]
+## Live Demo
 </a>
 
