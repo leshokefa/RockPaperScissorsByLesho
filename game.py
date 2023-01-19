@@ -21,23 +21,23 @@ while running:
     computer_move = "";
     if computer_random_move == 1:
         computer_move = rock
-        print(Fore.BLUE + "The computer chose rock!")
+        print(Fore.BLUE + "The computer chose rock!" + Style.RESET_ALL)
     elif computer_random_move == 2:
         computer_move = paper
-        print(Fore.BLUE + "The computer chose paper!")
+        print(Fore.BLUE + "The computer chose paper!" + Style.RESET_ALL)
     else:
         computer_move = scissors
-        print(Fore.BLUE + "The computer chose scissors!")
+        print(Fore.BLUE + "The computer chose scissors!" + Style.RESET_ALL)
 
     if(player_move == rock and computer_move == scissors) or (player_move == paper and computer_move == rock) or (player_move == scissors and computer_move == paper):
-            print(Fore.GREEN + "You won!")
+            print(Fore.GREEN + "You won!" + Style.RESET_ALL)
             score += 10
     elif player_move == computer_move:
-        print(Fore.LIGHTMAGENTA_EX + "You think like a robot? You're draw!")
+        print(Fore.BLUE + "You think like a robot? Draw!" + Style.RESET_ALL)
         score += 5
     else: 
-        print(Fore.RED + "You lose!")
-    print(f"You now have {score} points")
-    play_again = input("Wanna play again? ")
+        print(Fore.RED + "You lose!" + Style.RESET_ALL)
+    print(Fore.YELLOW + f'You now have {score} points!' + Style.RESET_ALL)
+    play_again = input("Wanna play again? (y/n) ")
     if play_again == "no" or play_again == "n":
         running = False
