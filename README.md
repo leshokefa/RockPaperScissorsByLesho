@@ -19,6 +19,6 @@ The player should enter one of these options:
 
 And the computer gives a random output of these three, compares them and chooses who is the winner based of the normal rules of the game!
 <a href="https://replit.com/@PietrGospodinov/RockPaperScissorsByLesho#main.py">
-## Live Demo
+Live Demo
 </a>
 
