@@ -1,6 +1,6 @@
 # ✊ Rock Paper Scissors Game
 
-This is a fun and interactive command-line Rock Paper Scissors game written in Python! The user plays against the computer, and each round offers immediate feedback on who wins. Great for Python beginners and a fun way to practice programming skills.
+This is a fun and interactive command-line Rock Paper Scissors game written in Python! The user plays against the computer, and each round offers immediate feedback on who wins.
 
 ## 🚀 Features
 
